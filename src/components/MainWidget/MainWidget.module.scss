@@ -1,0 +1,57 @@
+.root {
+  height: 450px;
+  width: 100%;
+  background-color: rgba(245, 245, 245, 0.5);
+  display: flex;
+  margin-top: 80px;
+  
+}
+
+.leftPart {
+  width: 50%;
+  box-sizing: border-box;
+  padding-top: 68px;
+  padding-left: 42px;
+}
+
+.smallTitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bigTitle {
+  font-size: 70px;
+  line-height: 70px;
+  margin-top: 16px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.greenText {
+  color: rgba(70, 163, 88, 1);
+}
+
+.description {
+  font-size: 14px;
+  margin-bottom: 44px;
+}
+
+
+.rightPart {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.picture {
+  height: 450px;
+}
+
+.pictureMini {
+  height: 150px;
+  position: absolute;
+  bottom: 30px;
+  left: 80px;
+}

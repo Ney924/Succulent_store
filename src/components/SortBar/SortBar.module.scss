@@ -1,0 +1,34 @@
+.root {
+  background-color: rgba(245, 245, 245, 0.5);
+  width: 310px;
+  padding: 16px;
+}
+
+.sections {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.categories {
+  margin-left: 16px;
+}
+
+.category {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+
+  &:first-child {
+    margin-top: 8px;
+  }
+  &:last-child {
+    margin-bottom: 36px;
+  }
+}
+
+.isActive {
+  color: rgba(70, 163, 88, 1);
+  font-weight: 600;
+}
