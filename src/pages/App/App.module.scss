@@ -1,7 +1,19 @@
 .root {
-  font-family: 'CeraPro';
+  font-family: "CeraPro";
   font-weight: 500;
-  margin: 0 80px;
+  margin: 0 80px 40px 80px;
+
+  // colors
+  --background: rgba(245, 245, 245, 0.5);
+
+  --greenMain: rgb(70, 163, 88);
+  --greenSecondary: rgba(70, 163, 88, 0.1);
+
+  --textSecondary: rgba(114, 114, 114, 1);
+  --textMain: rgba(61, 61, 61, 1);
+  --textForButton: rgba(251, 251, 251, 1);
+
+  --redIcon: rgba(240, 56, 0, 1);
 }
 
 .body {

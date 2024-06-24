@@ -1,7 +1,8 @@
 .root {
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: var(--background);
   width: 310px;
   padding: 16px;
+  height: 100%;
 }
 
 .sections {
@@ -29,6 +30,6 @@
 }
 
 .isActive {
-  color: rgba(70, 163, 88, 1);
+  color: var(--greenMain);
   font-weight: 600;
 }

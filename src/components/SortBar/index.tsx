@@ -21,9 +21,9 @@ export function SortBar() {
               ))}
             </div>
           )}
-          {section.name === "Размер" && (
+          {/* {section.name === "Размер" && (
             <div style={{height: '300px'}}></div>
-          )}
+          )} */}
           {section.name === "Размер" && (
             <div className={s.categories}>
               {section.data?.map((size) => (
