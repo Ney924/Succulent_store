@@ -1,5 +1,18 @@
 import { plant1 } from "../../assets";
 
+export const barItems = [
+  {
+    name: "Все растения",
+  },
+  {
+    name: "Новинки",
+  },
+  {
+    name: "Скидки",
+  },
+];
+
+
 
 export const products = [
   {
