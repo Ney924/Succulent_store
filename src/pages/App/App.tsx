@@ -1,3 +1,4 @@
+import { Footer } from '../../components/Footer'
 import { Header } from '../../components/Header'
 import { MainWidget } from '../../components/MainWidget'
 import { ProductsList } from '../../components/ProductsList'
@@ -13,6 +14,7 @@ function App() {
         <SortBar/>
         <ProductsList />
       </div>
+      <Footer/>
    </div>
   )
 }

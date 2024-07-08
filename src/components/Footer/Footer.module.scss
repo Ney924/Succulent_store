@@ -1,0 +1,56 @@
+.root {
+  background-color: var(--greenSecondary);
+  width: 100%;
+  height: 90px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 12px;
+}
+
+.logoFooter {
+  color: var(--greenMain);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.infoBlock {
+  display: flex;
+  gap: 24px;
+}
+
+.logoWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--greenMain);
+  }
+}
+
+.logo {
+  font-size: 14px;
+}
+
+.social {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.socialLogo {
+  width: 16px;
+  height: 16px;
+}
+
+.socialLogoWrap {
+  border: 1px solid var(--greenMain);
+  border-radius: 3px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
