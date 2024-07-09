@@ -5,12 +5,14 @@
 }
 
 .img {
-  height: 250px;
+  width: 100%;
   background-color: rgba(245, 245, 245, 0.5);
 }
 
-.product {
+.root {
   border-top: rgba(245, 245, 245, 0.5) 1px solid;
+  width: 100%;
+  height: 100%;
 
   &:hover {
     border-top: rgb(70, 163, 88) 1px solid;

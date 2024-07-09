@@ -23,5 +23,7 @@
 
 .body {
   margin-top: 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  height: 100%;
 }
